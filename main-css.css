@@ -22,7 +22,7 @@ header
     background-repeat: no-repeat;
     padding-top:60%;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
 }
 
 .background-overlay
@@ -52,48 +52,70 @@ header
     
 }
 
-
-
-.icons>a>i
-{
-    color: #dfe6e9;
-    font-size: 55px;    
-    text-align: center;
-    padding-top: 5%;
-    margin:5px;
-}
-
-.icons>a>i:hover
-{
-    color: #636e72;
-    transform: scale (1,2);
-    opacity: .9;
-}
-
-
-
 #redes
 {
-    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.prensa>img
+
+.iconos-redes
 {
-    transition: width 1s;
-    transition-timing-function: ease;
-    width: 20px;
-    display: inline 20px;
-    margin-left: 10px;
-    
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.iconos-redes>a>img
+{
+    width: 5%;
+    margin: 20px; 
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
+}
+
+.iconos-redes>a>img:hover
+{
+    transform: translate(0, -10px);
+    background-color: rgb(25, 25, 29);
+
+}
+
+.prensa
+{
+    text-align: center;
+    display: inline;
     
     
 }
 
-.prensa>img:hover
+.prensa-titulos
 {
-   width: 30px;
-    
+    display: flex;
 }
+.prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 18%;
+    padding-top: 3%;
+}
+
+
+.prensa>a>img
+{
+    margin-left: 15.5%;
+    margin-right: 48px;
+    margin-bottom: 20px;
+    width: 10%;
+    transition: .6s;
+}
+
+.prensa>a>img:hover{
+    transform: translate(0, -10px);
+  
+}
+
 
 
 #contacto
@@ -103,9 +125,9 @@ header
 
 #footer
 {   
-    margin-bottom: 5%;
+    margin-top: 5%;
     text-align: center;
-    padding-top: 10%;
+
 
 }
 
@@ -137,16 +159,77 @@ header
         padding-top: 10%;
     }
 
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 38px;
+    }
 
-
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 40px;
+    margin-left: 25px;
+  
+}
 
 }
 
-@media only screen and (max-width: 1199px)
+
+@media only screen and (max-width: 530px)
 {
-    #ig-page
+
+    .prensa>a>img
     {
-        margin-left: 10px;
-        padding-top: 10%;
+        text-align: center;
+        margin-left: 14%;
+        margin-right: 38px;
     }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 23px;
+  
+}
+
+}
+
+@media only screen and (max-width: 477px)
+{
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 13%;
+        margin-right: 36px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 23px;
+  
+}
+}
+
+@media only screen and (max-width: 414px)
+{
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 14%;
+        margin-right: 32px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 23px;
+  
+}
+    
 }
