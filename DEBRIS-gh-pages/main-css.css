@@ -1,0 +1,373 @@
+body
+{
+    font-family: 'Bellota Text', cursive;
+    font-size: 20px;
+    background-color:black; 
+    color:#ffff; 
+    overflow-x: hidden;
+
+}
+
+
+
+header
+{
+    margin-top: 20px;  
+    width: 100%;  
+}
+
+
+.main
+{   position: relative;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    padding-top:60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.background-overlay
+{
+    background:rgba(34, 47, 62,.4) ; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;       
+}
+
+#bio
+{
+    padding-top: 5%;    
+}
+
+
+
+
+
+#info
+{
+    padding-top: 5%;    
+    
+}
+
+#redes
+{
+    padding-bottom: 5%;
+}
+
+
+.iconos-redes
+{
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.iconos-redes>a>img
+{
+    width: 5%;
+    margin: 20px; 
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
+}
+
+.iconos-redes>a>img:hover
+{
+    transform: translate(0, -10px);
+    background-color: rgb(25, 25, 29);
+
+}
+
+.prensa
+{
+    text-align: center;
+    display: inline;
+    
+    
+}
+
+.prensa-titulos
+{
+    display: flex;
+}
+.prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 18%;
+    padding-top: 3%;
+}
+
+
+.prensa>a>img
+{
+    margin-left: 15.5%;
+    margin-right: 48px;
+    margin-bottom: 20px;
+    width: 10%;
+    transition: .6s;
+}
+
+.prensa>a>img:hover{
+    transform: translate(0, -10px);
+  
+}
+
+
+
+#contacto
+{
+    padding-top: 5%;
+}
+
+#footer
+{   
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+
+
+/* Media querys */
+
+@media only screen and (max-width: 992px)
+{
+    #descripcion
+    {
+
+        margin-top: 5%;
+        margin-bottom: 50%;
+       
+    }
+
+    #tdescripcion
+    {
+
+        margin-left:40px;
+       
+    }
+
+    #titulobio
+    {
+        margin-top: 15%;
+        padding-top: 15%;
+    }
+
+    #bio
+    {
+        margin-top: 10%;
+        width: 0%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    #btnBio
+    {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .spotify
+    {
+        padding-top: 10%;
+        align-items: center;
+        align-self: center;
+    }
+
+    #Presentacion
+    {
+        width: 80%;    
+    }
+
+    #descripcion
+    {
+
+        margin-top: 10%;
+       
+    }
+
+    #tdescripcion
+    {
+
+        margin-top: 60%;
+        text-align: center;
+       
+    }
+
+    #bio
+    {
+        margin-top: 60%;
+        width: 70%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 38px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 40px;
+    margin-left: 25px;
+  
+}
+
+.iconos-redes>a>img
+{
+    width: 8%;
+    margin: 10px;
+   
+
+}
+
+}
+
+
+@media only screen and (max-width: 555px)
+{
+
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 14%;
+        margin-right: 38px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 23px;
+  
+}
+
+#descripcion
+{
+
+    margin-top: 10%;
+   
+}
+
+#bio
+{
+    margin-top: 80%;
+    width: 90%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 477px)
+{
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 13%;
+        margin-right: 36px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 23px;
+  
+}
+
+#descripcion
+{
+
+    margin-top: 20%;
+    padding-bottom: 0%;
+   
+}
+
+#bio
+{
+    padding-top: 25%;
+    margin-top: 100%;
+    width: 100%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 414px)
+{
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 12%;
+        margin-right: 32px;
+    }
+
+    .prensa-titulos>h5
+{
+    text-align: center;
+    padding-left: 13px;
+    margin-left: 20px;
+  
+}
+    
+.iconos-redes>a>img
+{
+    width: 10%;
+    margin: 10px;
+   
+
+}
+
+
+#descripcion
+{
+
+    margin-top: 5%;
+   
+   
+}
+
+#bio
+{
+    padding-top: 50%;
+  
+    width: 130%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+
+}
+
+@media only screen and (max-width: 345px)
+{
+
+    .prensa>a>img
+    {
+        text-align: center;
+        margin-left: 12%;
+        margin-right: 30px;
+    }
+}
